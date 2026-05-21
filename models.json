@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "engine": "llama.rn",
+  "supported_engine_versions": [">=0.4.0 <1.0.0"],
+  "models": [
+    {
+      "id": "gemma-3-1b-it-q4",
+      "name": "Gemma 3 · 1B",
+      "vendor": "Google",
+      "version": "1.0.0",
+      "tier": "entry",
+      "size_bytes": 800000000,
+      "ram_required_mb": 3072,
+      "ram_recommended_mb": 4096,
+      "context_length": 4096,
+      "sha256": "（GGUF ファイルの sha256 をここに）",
+      "download_url": "https://huggingface.co/（リポジトリ）/resolve/（commitハッシュ）/（ファイル名）.gguf",
+      "download_url_fallback": null,
+      "status": "available"
+    }
+  ]
+}
