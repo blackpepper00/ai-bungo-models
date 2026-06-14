@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-12T00:00:00Z",
+  "generated_at": "2026-06-14T00:00:00Z",
   "min_app_version": "1.0.0",
   "engine": {
     "name": "llama.rn",
@@ -78,6 +78,54 @@
       "status": "available",
       "notes_ja": "軽量モデル。メモリの少ない端末向けです。文章の質は標準モデルに劣ります。",
       "released_at": "2025-03-12"
+    },
+    {
+      "id": "gemma3n-e2b-q4km",
+      "display_name": "Gemma 3n E2B（検証用）",
+      "tier": "high",
+      "family": "gemma3",
+      "parameter_count_b": 2.0,
+      "quantization": "Q4_K_M",
+      "context_length": 4096,
+      "file_size_mb": 2887,
+      "size_bytes": 3026881888,
+      "ram_required_mb": 3500,
+      "ram_recommended_mb": 4500,
+      "download_url": "https://huggingface.co/unsloth/gemma-3n-E2B-it-GGUF/resolve/d7bd20d510eff26f3f95260c50f032fee8931a35/gemma-3n-E2B-it-Q4_K_M.gguf",
+      "download_url_fallback": null,
+      "sha256": "189d42b4303cb1078ea8d00963f437cd6d884069b7ba2ba80b38cd09585dc415",
+      "md5": "544c1c350ca5cb42ca3f1ad8c2977778",
+      "license": "Gemma",
+      "license_url": "https://ai.google.dev/gemma/terms",
+      "supported_engine_versions": ">=0.12.0 <1.0.0",
+      "min_app_version": "1.0.0",
+      "status": "available",
+      "notes_ja": "【検証用・Gemma 3n】軽量だが選択式ノベルにも対応します（P-054 実機検証用）。",
+      "released_at": "2025-06-26"
+    },
+    {
+      "id": "gemma3n-e4b-q4km",
+      "display_name": "Gemma 3n E4B（検証用）",
+      "tier": "high",
+      "family": "gemma3",
+      "parameter_count_b": 4.0,
+      "quantization": "Q4_K_M",
+      "context_length": 4096,
+      "file_size_mb": 4329,
+      "size_bytes": 4539054208,
+      "ram_required_mb": 5200,
+      "ram_recommended_mb": 6500,
+      "download_url": "https://huggingface.co/unsloth/gemma-3n-E4B-it-GGUF/resolve/90fa8b0e431faeae50c305828bc260d6f71720e1/gemma-3n-E4B-it-Q4_K_M.gguf",
+      "download_url_fallback": null,
+      "sha256": "43b489bb77a81bda85180e7c490d40ad7f1d5c2ce654c9b05e15e104bd3c777e",
+      "md5": "7338a539a20610b5fafa2483aba79ec1",
+      "license": "Gemma",
+      "license_url": "https://ai.google.dev/gemma/terms",
+      "supported_engine_versions": ">=0.12.0 <1.0.0",
+      "min_app_version": "1.0.0",
+      "status": "available",
+      "notes_ja": "【検証用・Gemma 3n】高品質版。容量が大きく端末によっては動作しない場合があります（P-054 実機検証用）。",
+      "released_at": "2025-06-26"
     }
   ]
 }
