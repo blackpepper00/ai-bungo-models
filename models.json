@@ -9,7 +9,7 @@
   "models": [
     {
       "id": "gemma4-e2b-litertlm",
-      "display_name": "Gemma 4 E2B",
+      "display_name": "Gemma 4 E2B（軽量）",
       "tier": "standard",
       "family": "gemma4",
       "parameter_count_b": 2.0,
@@ -27,12 +27,12 @@
       "supported_engine_versions": ">=0.4.0 <1.0.0",
       "min_app_version": "1.0.0",
       "status": "available",
-      "notes_ja": "標準モデル（推奨）。日本語の小説生成・選択式に最適化したバランス型です。",
+      "notes_ja": "高速・低品質：E4B より速く軽いぶん、文章の品質は劣り、まれに不自然な文字が混じることがあります。動作の軽さ・速さを優先したい場合に。",
       "version": "1.0.0"
     },
     {
       "id": "gemma4-e4b-litertlm",
-      "display_name": "Gemma 4 E4B（高品質）",
+      "display_name": "Gemma 4 E4B",
       "tier": "high",
       "family": "gemma4",
       "parameter_count_b": 4.0,
@@ -50,7 +50,7 @@
       "supported_engine_versions": ">=0.4.0 <1.0.0",
       "min_app_version": "1.0.0",
       "status": "available",
-      "notes_ja": "高品質版。標準モデルより表現がきめ細かくなりますが、容量と必要メモリが増えます。",
+      "notes_ja": "標準モデル（推奨）。日本語の小説生成・選択式にバランスよく対応します。E2B より容量・必要メモリ・生成時間は大きめです。",
       "version": "1.0.0"
     }
   ]
