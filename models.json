@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-15T01:00:00Z",
+  "generated_at": "2026-06-17T00:00:00Z",
   "min_app_version": "1.0.0",
   "engine": {
     "name": "react-native-litert-lm",
@@ -41,7 +41,7 @@
       "file_size_mb": 3490,
       "size_bytes": 3659530240,
       "ram_required_mb": 4608,
-      "ram_recommended_mb": 6144,
+      "ram_recommended_mb": 5500,
       "download_url": "https://huggingface.co/litert-community/gemma-4-E4B-it-litert-lm/resolve/f7ad3343bd6ebc9607f4dc3bc4f2398bd5749bc5/gemma-4-E4B-it.litertlm",
       "download_url_fallback": "https://huggingface.co/litert-community/gemma-4-E4B-it-litert-lm/resolve/main/gemma-4-E4B-it.litertlm",
       "sha256": "0b2a8980ce155fd97673d8e820b4d29d9c7d99b8fa6806f425d969b145bd52e0",
