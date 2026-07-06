@@ -9,7 +9,7 @@
   "models": [
     {
       "id": "gemma4-e2b-litertlm",
-      "display_name": "Gemma 4 E2B（軽量）",
+      "display_name": "Gemma 4 E2B（軽量/低品質）",
       "tier": "standard",
       "family": "gemma4",
       "parameter_count_b": 2.0,
